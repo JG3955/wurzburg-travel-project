@@ -184,6 +184,23 @@ main p {
   opacity: 0.7;
 }
 
+table {
+  border: 5px solid #272044;
+  width: 100%;
+}
+
+.table-container {
+  padding-top: 40px;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 10px;
+  border-left: 1px solid #272044;
+  border-top: 1px solid #272044;
+}
+
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
@@ -268,5 +285,9 @@ footer a {
 
   .embed-responsive {
     aspect-ratio: 16/9;
+  }
+
+  .table-container {
+    overflow-x: scroll;
   }
 }
