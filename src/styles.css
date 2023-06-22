@@ -76,7 +76,7 @@ body {
 
 .embed-responsive {
   display: inline-block;
-  max-width: 100%;
+  width: 100%;
   aspect-ratio: 1/1;
 }
 
@@ -260,5 +260,13 @@ footer a {
   .grid-img {
     display: block;
     margin: 0 auto;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed-responsive {
+    aspect-ratio: 16/9;
   }
 }
